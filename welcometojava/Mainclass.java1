@@ -1,0 +1,17 @@
+package program2;
+
+public class Mainclass {
+
+    public static int add(int a, int b, int c)
+    {
+    	return a+b+c;
+    }
+   public static void main(String[] args) {
+	   // TODO Auto-generated method stub
+   
+   int result;
+   result=add(4,8,9);
+   System.out.println("Summation of three numbers is "+result);
+}
+
+}     
